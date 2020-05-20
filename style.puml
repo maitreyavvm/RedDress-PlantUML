@@ -85,35 +85,35 @@ skinparam backgroundColor fff
 skinparam backgroundColor 777
 !endif
 
-!function font_style()
+!procedure font_style()
   fontColor PRIMARY
   fontName FONTNAME
   fontSize FONTSIZE
   stereotypeFontColor SECONDARY
   stereotypeFontSize FONTSIZE
-!endfunction
+!endprocedure
 
-!function basic_style()
+!procedure basic_style()
   backgroundColor BOXBG
   borderColor BORDERCOLOR
-!endfunction
+!endprocedure
 
-!function light_style()
+!procedure light_style()
   backgroundColor LIGHTBG
   borderColor LIGHTBORDERCOLOR
-!endfunction
+!endprocedure
 
-!function accent_style()
+!procedure accent_style()
   backgroundColor ACCENT
   borderColor ACCENTDARK
-!endfunction
+!endprocedure
 
-!function arrow_style()
+!procedure arrow_style()
   arrowColor ARROWCOLOR
   arrowFontName FONTNAME
   arrowFontColor ARROWFONTCOLOR
   arrowFontSize FONTSIZE
-!endfunction
+!endprocedure
 
 ' Class diagrams
 
